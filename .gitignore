@@ -1,0 +1,17 @@
+# Ignore giant VS Code databases and settings
+.vscode/
+.config/
+*.db
+*.vshost.*
+
+# Ignore ROS 2 build folders (They are massive!)
+build/
+install/
+log/
+
+# Ignore Python "Cooked" files
+__pycache__/
+*.pyc
+
+# Ignore OS junk
+.DS_Store
